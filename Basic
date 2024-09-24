@@ -1,7 +1,7 @@
 Spring ORM with JPA is a way to interact with relational databases using java objects.
 @Entity, @Id, @Column, @Table
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 CrudRepository - it is an interface provided by Spring Data to perform basic crud operations like create, update, read, delete.
                  It provides methods which we can use to manage our entities.
 
@@ -13,4 +13,17 @@ Some of the methods are:
 5. repo.count() - long
 6. deleteById(id) - void
 7. deleteAll() - void
+------------------------------------------------------------------------------------------------------------------------
+Difference between CrudRepository and JpaRepository:
+
+Crud - provides basic Crud operations.
+JPA - inherits crud operations from CrudRepository and offers more functionalities.
+
+Crud - no supports for pagination and sorting, where as Jpa supports paginationa and sorting.
+-------------------------------------------------------------------------------------------------------------------------
+JPQL- Java Persistence Query Language - It is a query language used in JPA to perform basic op like select, update, delete.
+    - it is similar to SQL, but instead of quering db tables, it queries with java objects(entities).
+
+
+
 

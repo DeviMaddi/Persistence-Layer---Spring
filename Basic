@@ -70,6 +70,16 @@ HTTP Status Code:               200 - OK,  201 - created , 202 - accepted,  203 
 504 - Gateway Timeout 
 ----------------------------------------------------------------------------------------------------------------------------------
 
+Rest Template:
+
+It is a class in Spring Framework which is used to send http requests to restFul services.
+It simpifies the process of sending http requests, recieving responses, alowing developers to interact with externa API's
+using methods like get,post,put and more.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
  
 
 

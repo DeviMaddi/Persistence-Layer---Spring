@@ -23,7 +23,54 @@ Crud - no supports for pagination and sorting, where as Jpa supports paginationa
 -------------------------------------------------------------------------------------------------------------------------
 JPQL- Java Persistence Query Language - It is a query language used in JPA to perform basic op like select, update, delete.
     - it is similar to SQL, but instead of quering db tables, it queries with java objects(entities).
+-----------------------------------------------------------------------------------------------------------------------------
+Spring REST - Ex: Weather App
+1. When you open the app, it sends a REQUEST over the internet to the server that provides weather data.
+2. the server processes the request and  response with current info of your particular location.
+3. the weather app shows this data on the screen.
 
+Here, the client (phone) is communicating with server over the internet.
+
+In Spring REST, the rest api allows mobile apps, webbrowers, to communicate with backend servers over the internet.
+this Communication follows specific rules like get, post, deltete to exchange information like (retriveing data, updating data).
+
+So Spring REST is a way of building web services in java using Spring framework, making it easy for different application(like web browsers, mobile apps)
+to communicate with each other over the internet.
+
+
+Spring REST allows you to create web services where clients (like web browsers, mobile apps, or other servers) can:
+
+Retrieve data (like viewing a list of products).
+Send data (like creating a new user or submitting a form).
+Update data (like changing details of an existing order).
+Delete data (like removing a product).
+
+REST - Representational State Transfer- 
+Representational - representing in the format like Json or yaml
+State- the current info or status - if you ask for product, it will show its current state - like name, price
+transfer - This information (the state) is transferred from the server (where the data lives) 
+to the app you're using (like a website or phone app).
+-------------------------------------------------------------------------------------------------------------------------------
+HTTP Status Code:               200 - OK,  201 - created , 202 - accepted,  203 - non authouratice info,  204 - no content
+1XX - Informative
+2XX - SUCESS
+3XX - ReDirection
+4XX - Client side Error        
+5XX - Server side Error
+
+
+400 - Bad Request
+401 - Unauthorized
+404 - not found
+
+500 - Internal Server Error
+501 - Not Implemented
+502 - Bad Gateway
+503 - server unavailable
+504 - Gateway Timeout 
+----------------------------------------------------------------------------------------------------------------------------------
+
+ 
 
 
 
